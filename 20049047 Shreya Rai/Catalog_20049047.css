@@ -1,0 +1,343 @@
+* {
+	text-align: center;
+}
+
+GiftCardStore {
+	background: #124D72;
+	width: 80%;
+	padding-left: 10%;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+ShopLogo {
+	background-image: url("Logo.png");
+	margin-top: 30px;
+	height: 250px;
+	width: 250px;
+	float: left;
+	padding-left: 10%;
+	background-repeat: no-repeat;
+
+}
+
+ShopName {
+	font-family: Sans-Cursive, Arial Verdana Helvetica;
+	font-size: 55px;
+  	text-align: left;
+  	display: inline-block;
+  	margin-top: 40px;
+  	color: white;
+}
+
+Description {
+	font-family: Monospace;
+	font-size: 15px;
+	display: block;
+	text-align: center;
+	color: white;
+	margin-top: 15px;
+	margin-bottom: 12px;
+}
+
+ShopAddress,
+ShopContact,
+ShopWebsite {
+	font-size: 18px;
+	color: white;
+	display: block;
+}
+
+GiftCards {
+	margin-top: 20px;
+	border-style: solid;
+	border-radius: 2px;
+	font-size: 20px;
+	display: inline-block;
+	background-color: #C3E0F1;
+	padding-bottom: 50px;
+	margin-bottom: 70px;
+}
+Categories{
+	border-style: dotted;
+	border-radius: 2px;
+	font-size: 20px;
+	display: inline-block;
+	text-align: center;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	margin-left: 15px;
+	margin-right: 15px;
+	width: 80%;
+	background-color: #4E88AB;
+}
+
+Category {
+	font-weight: bold;
+	font-size: 40px;
+	color: white;
+	text-align: center;
+	font-family: cursive;
+
+
+}
+
+BrandName,
+Cost,
+Validity,
+Discount,
+Seller,
+DesignName {
+	display: list-item;
+  	text-align: left;
+  	padding-left: 50px;
+	padding-top: 10px;
+	list-style-type: none;
+	color: #153A4F;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+
+[item_no="ID_01"] {
+	background-image: url(roblox.jpeg);
+	margin-top: 50px;
+	height: 250px;
+	width: 600px;
+	display: block;
+	background-repeat: no-repeat;
+	margin-left: 80px;
+	padding-left: 350px;
+	padding-top: 10px;
+	margin-bottom: 60px;
+
+}
+
+[item_no="ID_02"] {
+	background-image: url(pubg.jpeg);
+	margin-top: 80px;
+	height: 300px;
+	width: 600px;
+	display: block;
+	background-repeat: no-repeat;
+	margin-left: 120px;
+	padding-left: 310px;
+	padding-top: 40px;
+	margin-bottom: 60px;
+
+}
+
+[item_no="ID_03"] {
+	background-image: url(playstation.jpeg);
+	margin-top: 40px;
+	height: 300px;
+	width: 600px;
+	display: block;
+	background-repeat: no-repeat;
+	margin-left: 120px;
+	padding-left: 310px;
+	padding-top: 10px;
+	margin-bottom: 60px;
+
+}
+
+[item_no="ID_04"] {
+	background-image: url(netflix.jpeg);
+	margin-top: 50px;
+	height: 300px;
+	width: 600px;
+	display: block;
+	background-repeat: no-repeat;
+	margin-left: 115px;
+	padding-left: 320px;
+	margin-bottom: 5px;
+}
+
+[item_no="ID_05"] {
+	background-image: url(amazonPrime.png);
+	margin-top: 10px;
+	height: 300px;
+	width: 600px;
+	display: block;
+	background-repeat: no-repeat;
+	margin-left: 150px;
+	padding-left: 280px;
+	margin-bottom: 40px;
+}
+
+[item_no="ID_06"] {
+	background-image: url(sephora.jpeg);
+	margin-top: 50px;
+	height: 300px;
+	width: 600px;
+	display: block;
+	background-repeat: no-repeat;
+	margin-left: 100px;
+	padding-top: 20px;
+	padding-left: 280px;
+	margin-bottom: 40px;
+}
+
+[item_no="ID_07"] {
+	background-image: url(fenty.jpeg);
+	margin-top: 50px;
+	height: 300px;
+	width: 600px;
+	display: block;
+	background-repeat: no-repeat;
+	margin-left: 100px;
+	padding-top: 30px;
+	padding-left: 280px;
+	margin-bottom: 40px;
+}
+
+
+[item_no="ID_08"] {
+	background-image: url(rare.jpeg);
+	margin-top: 100px;
+	height: 300px;
+	width: 600px;
+	display: block;
+	background-repeat: no-repeat;
+	margin-left: 80px;
+	padding-left: 300px;
+	margin-bottom: 20px;
+}
+
+
+[item_no="ID_09"] {
+	background-image: url(KKW.jpeg);
+	height: 300px;
+	width: 600px;
+	display: block;
+	background-repeat: no-repeat;
+	margin-top: 20px;
+	margin-left: 100px;
+	padding-left: 280px;
+	margin-bottom: 40px;
+}
+
+[item_no="ID_010"] {
+	background-image: url(itune.png);
+	height: 300px;
+	width: 600px;
+	display: block;
+	background-repeat: no-repeat;
+	margin-top: 60px;
+	margin-left: 100px;
+	padding-left: 280px;
+	margin-bottom: 40px;
+}
+
+[item_no="ID_011"] {
+	background-image: url(spotify.jpeg);
+	height: 300px;
+	width: 600px;
+	display: block;
+	background-repeat: no-repeat;
+	margin-top: 60px;
+	margin-left: 110px;
+	padding-left: 270px;
+	padding-top: 10px;
+	margin-bottom: 40px;
+}
+
+[item_no="ID_012"] {
+	background-image: url(googlePlay.jpeg);
+	height: 300px;
+	width: 600px;
+	display: block;
+	background-repeat: no-repeat;
+	margin-top: 60px;
+	margin-left: 90px;
+	padding-left: 300px;
+	padding-top: 30px;
+	margin-bottom: 40px;
+}
+
+[item_no="ID_013"] {
+	background-image: url(amazon.jpeg);
+	height: 300px;
+	width: 600px;
+	display: block;
+	background-repeat: no-repeat;
+	margin-top: 80px;
+	margin-left: 90px;
+	padding-left: 300px;
+}
+
+[item_no="ID_014"] {
+	background-image: url(UO.jpeg);
+	height: 300px;
+	width: 600px;
+	display: block;
+	background-repeat: no-repeat;
+	margin-top: 5px;
+	margin-left: 110px;
+	padding-left: 300px;
+	padding-top: 30px;
+	margin-bottom: 50px;
+}
+
+[item_no="ID_015"] {
+	background-image: url(Forever21.jpeg);
+	height: 300px;
+	width: 600px;
+	display: block;
+	background-repeat: no-repeat;
+	margin-top: 90px;
+	margin-left: 110px;
+	padding-left: 300px;
+	padding-top: 30px;
+	margin-bottom: 40px;
+}
+BrandName {
+	font-weight: bold;
+	color: #C3E0F1;
+	font-size: 30px;
+	text-decoration: underline;
+}
+
+Cost:before {
+	content: "Cost : ";
+	font-weight: bold;
+	color: #C3E0F1;
+}
+
+No_of_users:before {
+	content: "No of Users : ";
+	font-weight: bold;
+	color: #C3E0F1;
+}
+
+Validity:before {
+	content: "Validity : ";
+	font-weight: bold;
+	color: #C3E0F1;
+}
+
+Discount:before {
+	content: "Discount(%) : ";
+	font-weight: bold;
+	color: #C3E0F1;
+}
+
+Seller:before {
+	content: "Seller : ";
+	font-weight: bold;
+	color: #C3E0F1;
+}
+
+
+Message,
+copyright {
+	display: block;
+	text-align: center;
+	font-size: 27px;
+	padding-bottom: 40px;
+}
+
+
+
+
+
+
+

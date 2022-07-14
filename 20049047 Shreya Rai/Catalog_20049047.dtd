@@ -1,0 +1,38 @@
+<!ELEMENT GiftCardStore (ShopLogo,ShopName,Description,ShopAddress,ShopContact,ShopWebsite,GiftCards,Message,copyright)>
+
+<!ATTLIST GiftCardStore
+  xmlns CDATA #FIXED ''
+  xmlns:xsi CDATA #FIXED 'http://www.w3.org/2001/XMLSchema-instance'
+  xsi:noNamespaceSchemaLocation NMTOKEN #REQUIRED>
+
+<!ELEMENT ShopLogo EMPTY>
+<!ELEMENT ShopName (#PCDATA)>
+<!ELEMENT Description (#PCDATA)>
+<!ELEMENT ShopAddress (#PCDATA)>
+<!ELEMENT ShopContact (#PCDATA)>
+<!ELEMENT ShopWebsite (#PCDATA)>
+<!ELEMENT GiftCards (Categories+)>
+<!ATTLIST GiftCards type CDATA #REQUIRED>
+
+<!ELEMENT Categories (Category,Item+)>
+<!ATTLIST Categories Type CDATA #REQUIRED>
+
+<!ELEMENT Category (#PCDATA)>
+<!ELEMENT Item (CardImage,BrandName,Cost,Validity,Discount,Seller,DesignName)>
+<!ATTLIST Item item_no ID #REQUIRED>
+<!ATTLIST Item no_of_users CDATA #REQUIRED>
+
+
+<!ELEMENT CardImage (#PCDATA)>
+<!ELEMENT BrandName (#PCDATA)>
+<!ELEMENT Cost (#PCDATA)>
+
+<!ELEMENT Validity (#PCDATA)>
+<!ELEMENT Discount (#PCDATA)>
+<!ELEMENT Seller (#PCDATA)>
+<!ELEMENT DesignName EMPTY>
+
+<!ATTLIST DesignName designType (Traditional|Classic) "Classic">
+
+<!ELEMENT Message (#PCDATA)>
+<!ELEMENT copyright (#PCDATA)>

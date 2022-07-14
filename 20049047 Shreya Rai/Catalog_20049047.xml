@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="Catalog_20049047.css"?>
+<!DOCTYPE GiftCardStore SYSTEM "Catalog_20049047.dtd">
+<GiftCardStore xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Catalog_20049047.xsd">
+
+	<ShopLogo></ShopLogo>
+	<ShopName>TIMELESS GREETINGS</ShopName>
+	<Description>
+		Whether it’s for a celebration, milestone or just as a small thanks, send a digital gift card with Ding and let them choose what they really want. We make gift cards simple and instantly deliver them once purchased, so you’ll never miss a celebration again.
+	</Description>
+	<ShopAddress>London, UK</ShopAddress>
+	<ShopContact> 9814350000 </ShopContact>
+	<ShopWebsite>https://www.egifter.com/</ShopWebsite>
+	<GiftCards type="Digital">
+		<Categories Type="Games">
+			<Category>GAMES</Category>
+
+			
+			<Item item_no="ID_01" no_of_users="30">
+				<CardImage></CardImage>
+				<BrandName>ROBLOX</BrandName>
+				<Cost >$30.00 USD</Cost>
+				<Validity>3 months from purchase</Validity>
+				<Discount>15%</Discount>
+				<Seller>TimelessGreeting.com</Seller>
+				<DesignName designType="Traditional"></DesignName>
+			</Item>
+			
+			<Item item_no="ID_02" no_of_users="20">
+				<CardImage></CardImage>
+				<BrandName>PUBG</BrandName>
+				<Cost>$25.00 USD</Cost>
+				<Validity >2 months from purchase</Validity>
+				<Discount>10%</Discount>
+				<Seller>TimelessGreeting.com</Seller>
+				<DesignName designType="Classic"></DesignName>
+			</Item>
+
+			<Item item_no="ID_03" no_of_users="15">
+				<CardImage></CardImage>
+				<BrandName>PLAYSTATION</BrandName>
+				<Cost>$25.00 USD</Cost>
+				<Validity>4 months from purchase</Validity>
+				<Discount>15%</Discount>
+				<Seller>TimelessGreeting.com</Seller>
+				<DesignName designType="Classic"></DesignName>
+		
+			</Item>
+
+		</Categories>
+
+		<Categories Type="Stream">
+
+			<Category>STREAMING</Category>
+			<Item item_no="ID_04" no_of_users="25">
+				<CardImage></CardImage>
+				<BrandName>NETFLIX</BrandName>
+				<Cost>$20.00 USD</Cost>
+				<Validity>6 months from purchase</Validity>
+				<Discount>20%</Discount>
+				<Seller>TimelessGreeting.com</Seller>
+				<DesignName designType="Classic"></DesignName>
+				
+			</Item>
+
+			<Item item_no="ID_05" no_of_users="30">
+				<CardImage></CardImage>
+				<BrandName>AMAZON PRIME</BrandName>
+				<Cost>$30.00 USD</Cost>
+				<Validity>5 months from purchase</Validity>
+				<Discount>12%</Discount>
+				<Seller>TimelessGreeting.com</Seller>
+				<DesignName designType="Traditional"></DesignName>
+			</Item>
+
+		</Categories>
+
+		<Categories Type="Cosmetics">
+			<Category>COSMETICS</Category>
+			<Item item_no="ID_06" no_of_users="50"> 
+				<CardImage></CardImage>
+				<BrandName>SEPHORA</BrandName>
+				<Cost>$50.00 USD</Cost>
+				<Validity>5 months from purchase</Validity>
+				<Discount>20%</Discount>
+				<Seller>TimelessGreeting.com</Seller>
+				<DesignName designType="Traditional"></DesignName>
+			</Item>
+
+			<Item item_no="ID_07" no_of_users="40">
+				<CardImage></CardImage>
+				<BrandName>Fenty Beauty</BrandName>
+				<Cost>$50.00 USD</Cost>
+				<Validity>3 months from purchase</Validity>
+				<Discount>15%</Discount>
+				<Seller>TimelessGreeting.com</Seller>
+				<DesignName designType="Classic"></DesignName>
+			</Item>
+
+			<Item item_no="ID_08" no_of_users="30">
+				<CardImage></CardImage>
+				<BrandName>RARE BEAUTY</BrandName>
+				<Cost>$15.00 USD</Cost>
+				<Validity>4 months from purchase</Validity>
+				<Discount>10%</Discount>
+				<Seller>TimelessGreeting.com</Seller>
+				<DesignName designType="Classic"></DesignName>
+
+			</Item>
+
+			<Item item_no="ID_09" no_of_users="20">
+				<CardImage></CardImage>
+				<BrandName>KKW BEAUTY</BrandName>
+				<Cost>$50.00 USD</Cost>
+				<Validity>3 months from purchase</Validity>
+				<Discount>25%</Discount>
+				<Seller>TimelessGreeting.com</Seller>
+				<DesignName designType="Traditional"></DesignName>
+			</Item>
+		</Categories>
+
+		<Categories Type="Music">
+			<Category>MUSIC</Category>
+			<Item item_no="ID_010" no_of_users="35">
+				<CardImage></CardImage>
+				<BrandName>ITUNES</BrandName>
+				<Cost>$40.00 USD</Cost>
+				<Validity>5 months from purchase</Validity>
+				<Discount>20%</Discount>
+				<Seller>TimelessGreeting.com</Seller>
+				<DesignName designType="Classic"></DesignName>
+			</Item>
+
+			<Item item_no="ID_011" no_of_users="20">
+				<CardImage></CardImage>
+				<BrandName>SPOTIFY</BrandName>
+				<Cost>$30.00 USD</Cost>
+				<Validity>3 months from purchase</Validity>
+				<Discount>15%</Discount>
+				<Seller>TimelessGreeting.com</Seller>
+				<DesignName designType="Traditional"></DesignName>
+			</Item>
+
+			<Item item_no="ID_012" no_of_users="40">
+				<CardImage></CardImage>
+				<BrandName>GOOGLE PLAY MUSIC</BrandName>
+				<Cost>$60.00 USD</Cost>
+				<Validity>6 months from purchase</Validity>
+				<Discount>15%</Discount>
+				<Seller>TimelessGreeting.com</Seller>
+				<DesignName designType="Classic"></DesignName>
+
+			</Item>
+		</Categories>
+
+		<Categories Type="Online Shopping">
+			<Category>ONLINE SHOPPING</Category>
+			<Item item_no="ID_013" no_of_users="30">
+				<CardImage></CardImage>
+				<BrandName>AMAZON</BrandName>
+				<Cost>$50.00 USD</Cost>
+				<Validity>8 months from purchase</Validity>
+				<Discount>30%</Discount>
+				<Seller>TimelessGreeting.com</Seller>
+				<DesignName designType="Classic"></DesignName>
+
+			</Item>
+
+			<Item item_no="ID_014" no_of_users="30">
+				<CardImage></CardImage>
+				<BrandName>URBAN OUTFITTERS</BrandName>
+				<Cost>$25.00 USD</Cost>
+				<Validity>4 months from purchase</Validity>
+				<Discount>15%</Discount>
+				<Seller>TimelessGreeting.com</Seller>
+				<DesignName designType="Traditional"></DesignName>
+
+			</Item>
+
+			<Item item_no="ID_015" no_of_users="10">
+				<CardImage></CardImage>
+				<BrandName>FOREVER 21</BrandName>
+				<Cost>$25.00 USD</Cost>
+				<Validity>3 months from purchase</Validity>
+				<Discount>13%</Discount>
+				<Seller>TimelessGreeting.com</Seller>
+				<DesignName designType="Traditional"></DesignName>
+			</Item>
+		</Categories>
+
+	</GiftCards>
+	<Message>THANK YOU!!</Message>
+	<copyright>© 2021 All rights reserved | Created by Shreya Rai.</copyright>
+</GiftCardStore>
